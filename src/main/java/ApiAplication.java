@@ -1,4 +1,4 @@
-package br.com.api;
+
 import java.util.List;
 
 import org.springframework.boot.SpringApplication;
@@ -14,7 +14,7 @@ public class ApiAplication {
     public static void main(String[] args) {
         SpringApplication.run(ApiAplication.class, args);
     }
-
+    
     @GetMapping("/")
     public String greet() {
         return "Hello";
